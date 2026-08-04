@@ -43,7 +43,7 @@ MODELO DE SAÍDA OBRIGATÓRIO DA ESPECIFICAÇÃO:
 
 # Configuração do Modelo
 if menu == "1. Arquiteto de Descritivos":
-    model = genai.GenerativeModel('gemini-1.5-pro', system_instruction=PROMPT_MODULO_1)
+    model = genai.GenerativeModel('gemini-1.5-pro-latest', system_instruction=PROMPT_MODULO_1)
 else:
     st.info("Módulo em construção. Use o Módulo 1 para teste.")
     st.stop()
